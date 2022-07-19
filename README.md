@@ -41,3 +41,11 @@ ru_setup(
   retries = NULL,
   verbose = NULL,
 )
+
+#### commands
+
+# To check set up run below command
+ruODK::ru_settings()
+
+# TO check submissions
+ruODK::submission_list()
