@@ -12,9 +12,9 @@ For Windows users, it is smoother to install 1) Rtools, 2) R and 3) RStudio in t
 ## Prerequisites
 
 #### ruODK
-To install `RuODK`, which is the R client that the `timci` package uses to simply interact with the Application Programming Interface (API) of ODK Central, please follow the instructions provided [here](https://docs.ropensci.org/ruODK/#install).
+To install `RuODK`, which is the R client that the `timci` package uses to simply interact with the Application Programming Interface (API) of ODK Central, please follow the instructions below.
 
-## Install
+#### Installation of ruODK
 You can install the latest release of `ruODK` from the
 [rOpenSci R-Universe](https://ropensci.r-universe.dev):
 
@@ -24,3 +24,4 @@ options(repos = c(ropensci = 'https://ropensci.r-universe.dev',
                   CRAN = 'https://cloud.r-project.org'))
 install.packages('ruODK')
 ```
+reference : provided [here](https://docs.ropensci.org/ruODK/#install)
