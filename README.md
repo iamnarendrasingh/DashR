@@ -8,3 +8,19 @@ This package was developed on a Windows 10 operating system, with R version 4.2.
 * [Link to download the installer for RStudio](https://rstudio.com/products/rstudio/download/#download)
 
 For Windows users, it is smoother to install 1) Rtools, 2) R and 3) RStudio in this order.
+
+## Prerequisites
+
+#### ruODK
+To install `RuODK`, which is the R client that the `timci` package uses to simply interact with the Application Programming Interface (API) of ODK Central, please follow the instructions provided [here](https://docs.ropensci.org/ruODK/#install).
+
+## Install
+You can install the latest release of `ruODK` from the
+[rOpenSci R-Universe](https://ropensci.r-universe.dev):
+
+```{r r-universe, eval = FALSE}
+# Enable the rOpenSci universe
+options(repos = c(ropensci = 'https://ropensci.r-universe.dev',
+                  CRAN = 'https://cloud.r-project.org'))
+install.packages('ruODK')
+```
